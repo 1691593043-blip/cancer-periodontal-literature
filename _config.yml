@@ -1,0 +1,18 @@
+title: 抗癌药物牙周维护文献库
+description: 自动搜集并分类整理的医学文献
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+collections:
+  literature:
+    output: true
+    permalink: /literature/:path/
+
+defaults:
+  - scope:
+      path: ""
+      type: "literature"
+    values:
+      layout: "post"
