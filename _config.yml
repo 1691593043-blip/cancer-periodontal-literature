@@ -3,7 +3,6 @@ description: 自动搜集并分类整理的医学文献
 theme: minima
 plugins:
   - jekyll-feed
-  - jekyll-seo-tag
 
 collections:
   literature:
